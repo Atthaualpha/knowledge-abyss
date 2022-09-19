@@ -1,4 +1,4 @@
-Clean code thoughts
+# Clean code thoughts
 
 *[:arrow_left: Go back](./THOUGHTS.md)*
 
