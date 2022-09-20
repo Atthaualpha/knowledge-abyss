@@ -4,3 +4,4 @@
 
 - [Clean code book thoughts](./CLEAN_CODE_BOOK.md)
 - [LeBlanc's Law](./LEBLANCS_LAW.md)
+- [YAGNI Principle](./YAGNI.md)
