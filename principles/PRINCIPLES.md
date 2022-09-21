@@ -1,6 +1,8 @@
-# My thoughts
+# Principles
 
 *[:arrow_left: Go back to home](../README.md)*
+
+This page list principles that are important and that have to keep in mind when writing code.
 
 - [Clean code book thoughts](./CLEAN_CODE_BOOK.md)
 - [LeBlanc's Law](./LEBLANCS_LAW.md)
