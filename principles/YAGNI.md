@@ -1,6 +1,6 @@
 # YAGNI
 
-*[:arrow_left: Go back](./THOUGHTS.md)*
+*[:arrow_left: Go back](./PRINCIPLES.md)*
 
 YAGNI: You’re Not Gonna Need It. This slogan, one of XP’s most
 famous and controversial, reminds us always to work on the story we

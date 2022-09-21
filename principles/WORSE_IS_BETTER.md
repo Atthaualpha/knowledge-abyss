@@ -1,6 +1,6 @@
 # Worse is better
 
-*[:arrow_left: Go back](./THOUGHTS.md)*
+*[:arrow_left: Go back](./PRINCIPLES.md)*
 
 Worse is better remind us to only focus on what software has to do, and avoid to add extra features that will only overload the system and make less maintainable and even useless features will be provided to the user.
 

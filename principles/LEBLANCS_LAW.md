@@ -1,6 +1,6 @@
 # LeBlanc's Law
 
-*[:arrow_left: Go back](./THOUGHTS.md)*
+*[:arrow_left: Go back](./PRINCIPLES.md)*
 
 > Later == Never
 
