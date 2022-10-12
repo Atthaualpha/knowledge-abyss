@@ -1,5 +1,7 @@
 # Git
 
+*[:arrow_left: Go back to home](../README.md)*
+
 Git needs only local files and resources to operate
 Git stores data data as snapshots over time.
 Git checksum every change calculating by files or directories content before is stored, this checksum is a SHA-1 hash 
@@ -28,3 +30,8 @@ This state means that the changes have been committed to local database.
 > Each level overrides values in the previous level
 
 This command shows the settings and config files `git config --list --show-origin`
+
+
+## Commands:
+
+- [Restore](./RESTORE.md)
