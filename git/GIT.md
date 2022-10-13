@@ -9,8 +9,8 @@ Git checksum every change calculating by files or directories content before is 
 ## States of git
 git has three main states:
 - modified (working directories)
-- staged (stateing area/index)
-- commited (git directory)
+- staged (staging area/index)
+- committed (git directory)
 
 ### modified
 This state means that some changes have been made but has not been committed yet to local database.
@@ -18,7 +18,7 @@ This state means that some changes have been made but has not been committed yet
 ### staged
 This state means that the changes has been marked to go to the next commit.
 
-### commited
+### committed
 This state means that the changes have been committed to local database.
 
 
@@ -35,3 +35,4 @@ This command shows the settings and config files `git config --list --show-origi
 ## Commands:
 
 - [Restore](./RESTORE.md)
+- [Alias](./ALIAS.md)
