@@ -26,7 +26,7 @@ Where **W** means working tree state.
 Example:
 > git restore -W .
 
-### Special behaviour for new files.
+### Special behavior for new files.
 
 Theres is a special usage when you have new files in index state. If you want to discard this changes and even delete the file you can run following command.
 
