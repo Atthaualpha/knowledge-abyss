@@ -14,6 +14,9 @@ Following are some alias that you can use, this configurations can be place in g
 	cam = commit -am
 	caa = commit -a --amend --no-edit
 	cm = commit -m
+	cm-feat = "!git commit -m \"\":sparkles: feat:\"$1\" -m \"$2\" "
+	cm-fix = "!git commit -m \"\":bug: fix:\"$1\" -m \"$2\" "
+	cm-docs = "!git commit -m \"\":memo: docs:\"$1\" -m \"$2\" "
 	acm = !git add -A && git commit -m
 	co = checkout
 	cob = checkout -b
