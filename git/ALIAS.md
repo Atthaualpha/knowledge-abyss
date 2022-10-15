@@ -29,6 +29,8 @@ Following are some alias that you can use, this configurations can be place in g
 	last = log -1 HEAD --stat
 	rs = restore
 	rss = restore -S
+	rt = reset
+	rs-last = reset --soft HEAD~1
 	lg = log
 	lgs = log --oneline --stat
 	lgg = log --graph --oneline
