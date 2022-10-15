@@ -6,8 +6,7 @@ Alias allow as to reduces are git commands and customize them as we want.
 
 Following are some alias that you can use, this configurations can be place in global git config file or wherever you want.
 ```
-	a = add -A
-	av = add -A -v
+	a = add -A -v
 	s = status -sb
 	st = status
 	ci = commit
@@ -25,11 +24,12 @@ Following are some alias that you can use, this configurations can be place in g
 	p = push  
 	pu = push -u
 	pl = pull
+	df = diff
 	dfc = !git diff $1^- 
 	last = log -1 HEAD --stat
-	rs = restore
-	rss = restore -S
-	rt = reset
+	rt = restore
+	rts = restore -S
+	rs = reset
 	rs-last = reset --soft HEAD~1
 	lg = log
 	lgs = log --oneline --stat
