@@ -15,7 +15,7 @@ Following are some alias that you can use, this configurations can be place in g
 	ci-feat = "!feat() { git commit -m "\":sparkles: feat: $*"\" ; }; feat"
 	ci-fix = "!fix() { git commit -m "\":bug: fix: $*"\" ; }; fix"
 	ci-docs = "!docs() { git commit -m "\":memo: docs: $*"\" ; }; docs"
-	acm = !git add -A && git commit -m
+	acm = !git add -A && git commit -m 
 	co = checkout
 	cob = checkout -b	
 	br = branch
