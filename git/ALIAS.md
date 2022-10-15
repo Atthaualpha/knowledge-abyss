@@ -15,13 +15,13 @@ Following are some alias that you can use, this configurations can be place in g
 	cia-feat = "!feat() { git commit -am "\":sparkles: feat: $@"\" ; }; feat"
 	ci-fix = "!fix() { git commit -m "\":bug: fix: $@"\" ; }; fix"
 	cia-fix = "!fix() { git commit -am "\":bug: fix: $@"\" ; }; fix"
-	ci-docs = "!docs() { git commit -m "\":memo: docs: $@"\" ; }; docs"
+	ci-docs = "!docs() { git commit -m "\":memo: docs: $@"\" ; };  docs "
 	cia-docs = "!docs() { git commit -am "\":memo: docs: $@"\" ; }; docs"
-	acm = !git add -A && git commit -m 
+	acm = !git add -A && git commit -m
 	co = checkout
 	cob = checkout -b	
 	br = branch
-	p = push  
+	p = push 
 	pu = push -u
 	pl = pull
 	df = diff
@@ -34,5 +34,5 @@ Following are some alias that you can use, this configurations can be place in g
 	lg = log
 	lgs = log --oneline --stat
 	lgg = log --graph --oneline
-	lggs = lgg --stat
+	lggs = lgg --graph --oneline --stat
 ``` 
