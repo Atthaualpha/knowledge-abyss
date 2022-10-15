@@ -13,13 +13,16 @@ Following are some alias that you can use, this configurations can be place in g
 	ci = commit
 	cimd = commit -a --amend --no-edit
 	ci-feat = "!feat() { git commit -m "\":sparkles: feat: $*"\" ; }; feat"
+	cia-feat = "!feat() { git commit -am "\":sparkles: feat: $*"\" ; }; feat"
 	ci-fix = "!fix() { git commit -m "\":bug: fix: $*"\" ; }; fix"
+	cia-fix = "!fix() { git commit -am "\":bug: fix: $*"\" ; }; fix"
 	ci-docs = "!docs() { git commit -m "\":memo: docs: $*"\" ; }; docs"
+	cia-docs = "!docs() { git commit -am "\":memo: docs: $*"\" ; }; docs"
 	acm = !git add -A && git commit -m 
 	co = checkout
 	cob = checkout -b	
 	br = branch
-	p = push 
+	p = push  
 	pu = push -u
 	pl = pull
 	dfc = !git diff $1^- 
