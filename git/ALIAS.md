@@ -36,3 +36,6 @@ Following are some alias that you can use, this configurations can be place in g
 	lgg = log --graph --oneline
 	lggs = lgg --graph --oneline --stat
 ``` 
+
+### Useful Resources
+- [Alias wiki (useful to search commands)](https://git.wiki.kernel.org/index.php/Aliases#Aliases)
