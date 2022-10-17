@@ -80,3 +80,9 @@ If you are pointing to `master` and master has a tracking to `origin/master` you
 
 Here you tells git to use `inherit` way to set the tracking reference. The default mode is `direct` where you use the local branch references.
 
+Another way is use the shorthand `@{u}` to set the tracking reference of existing track reference.
+
+> `git checkout -b my-new-branch -t @{u}`
+
+Where `u` means upstream
+
