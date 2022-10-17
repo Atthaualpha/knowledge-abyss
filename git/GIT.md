@@ -28,3 +28,11 @@ This state means that the changes have been committed to local database.
 - [Commit](./COMMIT.md)
 - [Config](./CONFIG.md)
 - [Restore](./RESTORE.md)
+
+## Pending topics
+- Rebase
+- merge
+- git flow
+- lib flow
+- refspecs
+- reflogs
