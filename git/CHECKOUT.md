@@ -70,6 +70,10 @@ So you can set the tracking with just the following commands.
 
 > `git checkout -b my-new-branch -t origin/master`
 
+or 
+
+> `git checkout -b my-new-branch origin/master`
+
 Here you specify the remote branch you want to track.
 
 Another way is set the tracking strategy when you now that the current branch is pointing to a remote branch too.
