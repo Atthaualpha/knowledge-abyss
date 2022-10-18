@@ -27,7 +27,7 @@ This state means that the changes have been committed to local database.
 - [Checkout](./CHECKOUT.md)
 - [Commit](./COMMIT.md)
 - [Config](./CONFIG.md)
-- [Reflog](./REFLOG.md)
+- [References](./REFERENCES.md)
 - [Restore](./RESTORE.md)
 
 ## Pending topics
