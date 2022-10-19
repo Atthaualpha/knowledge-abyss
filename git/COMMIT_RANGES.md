@@ -20,6 +20,8 @@ or
 
 > `git log feature --not master`
 
+`If you omit the branch after Double Dot git will use HEAD references`
+
 ## Multiple points
 
 There are sometimes when you want to list commits between more than two branches, in these cases you can use the following syntax:
