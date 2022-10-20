@@ -13,13 +13,19 @@ Following are some alias that you can use, this configurations can be place in g
 	cimd = commit -a --amend --no-edit
 	ci-feat = "!feat() { git commit -m "\":sparkles: feat: $@"\" ; }; feat"
 	cia-feat = "!feat() { git commit -am "\":sparkles: feat: $@"\" ; }; feat"
+	aci-feat = !git a && git cia-feat
 	ci-fix = "!fix() { git commit -m "\":bug: fix: $@"\" ; }; fix"
 	cia-fix = "!fix() { git commit -am "\":bug: fix: $@"\" ; }; fix"
+	aci-fix = !git a && git cia-fix
 	ci-docs = "!docs() { git commit -m "\":memo: docs: $@"\" ; };  docs "
 	cia-docs = "!docs() { git commit -am "\":memo: docs: $@"\" ; }; docs"
+	aci-docs = !git a && git cia-docs
 	acm = !git add -A && git commit -m
 	co = checkout
-	cob = checkout -b	
+	cob = checkout -b
+	cob-feat =!sh -c 'git checkout -b feature/$0'
+	cob-fix =!sh -c 'git checkout -b fix/$0'
+	cob-hotfix =!sh -c 'git checkout -b hotfix/$0'
 	br = branch
 	p = push 
 	pu = push -u
@@ -35,6 +41,15 @@ Following are some alias that you can use, this configurations can be place in g
 	lgs = log --oneline --stat
 	lgg = log --graph --oneline
 	lggs = lgg --graph --oneline --stat
+	sth = stash
+	sth-a = stash apply
+	sth-d = stash drop
+	sth-dn = !sh -c 'git stash drop stash@{$0}'
+	sth-p = stash pop
+	sth-pn = !sh -c 'git stash pop stash@{$0}'
+	sth-an = !sh -c 'git stash apply stash@{$0}'
+	sth-l = stash list
+	sth-ai = stash apply --index
 ``` 
 
 ### Useful Resources
