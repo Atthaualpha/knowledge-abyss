@@ -25,6 +25,7 @@ This state means that the changes have been committed to local database.
 
 - [Alias](./ALIAS.md)
 - [Checkout](./CHECKOUT.md)
+- [Clean](./CLEAN.md)
 - [Commit](./COMMIT.md)
 - [Commit Ranges](./COMMIT_RANGES.md)
 - [Config](./CONFIG.md)
