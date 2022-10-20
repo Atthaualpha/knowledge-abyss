@@ -1,5 +1,8 @@
 # Stashing
 
+*[:arrow_left: Go back to Git](./GIT.md)*
+
+
 Stashing is a useful tool to save your half work in a state where you can pick it up later and keep working.
 
 To stash your work you can use the following command:

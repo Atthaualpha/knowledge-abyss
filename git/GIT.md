@@ -30,6 +30,7 @@ This state means that the changes have been committed to local database.
 - [Config](./CONFIG.md)
 - [References](./REFERENCES.md)
 - [Restore](./RESTORE.md)
+- [Stash](./STASH.md)
 
 ## Pending topics
 - Rebase
