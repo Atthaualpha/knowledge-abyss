@@ -2,7 +2,7 @@
 
 *[:arrow_left: Go back to Git](./GIT.md)*
 
-This command is used to switch HEAD pointer between branches and alse to restore changes. But primarily to switch the pointer.
+This command is used to switch HEAD pointer between branches and also to restore changes. But primarily to switch the pointer.
 
 ## Checkout to a existing branch 
 
