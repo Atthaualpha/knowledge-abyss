@@ -29,6 +29,7 @@ This state means that the changes have been committed to local database.
 - [Commit](./COMMIT.md)
 - [Commit Ranges](./COMMIT_RANGES.md)
 - [Config](./CONFIG.md)
+- [Merge](./MERGE.md)
 - [References](./REFERENCES.md)
 - [Restore](./RESTORE.md)
 - [Search](./SEARCH.md)
