@@ -37,8 +37,8 @@ This state means that the changes have been committed to local database.
 
 ## Pending topics
 - Rebase
-- merge
 - git flow
 - lib flow
 - refspecs
-- reflogs
+- revert
+- what is version control
