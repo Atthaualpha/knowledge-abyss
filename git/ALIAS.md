@@ -2,7 +2,7 @@
 
 Alias allow as to reduces are git commands and customize them as we want.
 
-@[:arrow_left: Go back to Git](./GIT.md)@
+[:arrow_left: Go back to Git](./GIT.md)
 
 Following are some alias that you can use, this configurations can be place in global git config file or wherever you want.
 ```
