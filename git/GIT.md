@@ -31,6 +31,7 @@ This state means that the changes have been committed to local database.
 - [Config](./CONFIG.md)
 - [Merge](./MERGE.md)
 - [References](./REFERENCES.md)
+- [Rerere](RERERE.md)
 - [Restore](./RESTORE.md)
 - [Search](./SEARCH.md)
 - [Stash](./STASH.md)
