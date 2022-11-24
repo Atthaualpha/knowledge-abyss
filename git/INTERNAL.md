@@ -13,6 +13,7 @@ This means that you can provide to Git any kind of data **(value)** and then it 
 - [How git manage data](./INTERNAL.md#how-git-manage-data)
 - [Object types](./INTERNAL.md#object-types)
 - [When the magic occur](./INTERNAL.md#when-the-magic-occur)
+- [Key Notes](./INTERNAL.md#key-notes)
 
 
 ## Git database
