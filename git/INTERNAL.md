@@ -12,7 +12,7 @@ This means that you can provide to Git any kind of data **(value)** and then it 
 - [Objects](./INTERNAL.md#objects)
 - [How git manage data](./INTERNAL.md#how-git-manage-data)
 - [Object types](./INTERNAL.md#object-types)
-
+- [When the magic occur](./INTERNAL.md#when-the-magic-occur)
 
 
 ## Git database
@@ -66,3 +66,11 @@ To do this, when we run the command `git commit` git make several actions:
 1. Create the tree object, which contains the references to the files that are in the index.
 2. Create the commit object, which contains the references to the tree object, this way a commit can keep track of what changes were made.
 3. And finally, git update the HEAD pointer to the new commit created. This way we are in a version up to date.
+
+## key notes:
+
+- Git does not track files by its names but its content, this means that if we have to files with same content this will be represented as a single blob file.
+- Tree object is calculated based on index content.
+- Tree object key is calculated based on the content of blob files, this means that the same tree object will be created on any computer if the content of blob files are the same (same index).
+- Tree object can contain references to another trees
+- Commit objects always will be different because it is calculated by the author, the date and the message of commit.
