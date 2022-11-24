@@ -44,10 +44,25 @@ Here is where git differences from other VCS's, because git thinks data as **Sna
 
 This means that every time that a change is made, git will made a copy of the newest version and stored it as a new and unique object and will keep the oldest version stored too. (Of course, this is not scalable in a long-term, so git has its own optimization system to keep track of changes in a efficient way, it you want to know more about it please read about the **pack file** in git).
 
-## Object Types
+### Object Types
 
-Git has main three objects:
+Git has three main objects:
 
-- Blob
-- Three
-- Commit
+- Blob: Represents each version of a file.
+- Three: Represents one level of directory information.
+- Commit: Represent each change introduced.
+
+### When the magic occur?
+
+Now that we know the types of objects stored in git database is time to know when and how this objects are written.
+
+The first step is to create the version of the file that are modifying. For this when the command  `git add` is executed, this will perform two actions:
+1. Create the blob file with the current version
+2. Update the index with the references to the blob file created.
+
+But this is not enough to keep track of changes. We need to know when this change was made, who made it and what exactly changed.
+
+To do this, when we run the command `git commit` git make several actions:
+1. Create the tree object, which contains the references to the files that are in the index.
+2. Create the commit object, which contains the references to the tree object, this way a commit can keep track of what changes were made.
+3. And finally, git update the HEAD pointer to the new commit created. This way we are in a version up to date.
