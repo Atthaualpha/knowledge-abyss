@@ -7,11 +7,11 @@ To understand Git is necessary to think of git in a easy way. And the most easie
 This means that you can provide to Git any kind of data **(value)** and then it will **store** it and give you a way **(key)** to access it.
 
 ## Content
-- [Git database](./INTERNALS.md#git-database)
-- [The Repository](./INTERNALS.md#the-repository)
-- [Objects](./INTERNALS.md#objects)
-- [How git manage data](./INTERNALS.md#how-git-manage-data)
-- [Object types](./INTERNALS.md#object-types)
+- [Git database](./INTERNAL.md#git-database)
+- [The Repository](./INTERNAL.md#the-repository)
+- [Objects](./INTERNAL.md#objects)
+- [How git manage data](./INTERNAL.md#how-git-manage-data)
+- [Object types](./INTERNAL.md#object-types)
 
 
 
