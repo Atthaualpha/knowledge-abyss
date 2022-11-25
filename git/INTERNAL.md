@@ -79,7 +79,7 @@ Some useful commands are the following.
 - Read SHA1 content: `git cat-file -p [HASH]`
 - Read index file: `git ls-files -s`
 - Get full HASH from abbrev code: `git rev-parse [abbrev-hash]`
-- Read tree from branch or pointer: `git cat-file -p [branch/pointer]^{tree}`
+- Read tree from branch or pointer: `git cat-file -p [branch/pointer]^{tree}` or `git ls-tree [branch/pointer]`
 - Read pack files: `git verify-pack -v [pack-file-path]`
 
 ## key notes:
