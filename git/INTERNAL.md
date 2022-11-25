@@ -94,4 +94,4 @@ Some useful commands are the following.
 
 You might be thinking, if for git files with same content are the same blob file, how does it knows which file is which one.
 
-The answer is short. Tree object. Yes the tree object keeps tracks of the blob key and also the name of the file.
+The answer is short. Tree object. Yes the tree object keeps tracks of the relation between the content (blob)  name of the file to which the content belongs.
