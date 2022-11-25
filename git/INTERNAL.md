@@ -13,7 +13,9 @@ This means that you can provide to Git any kind of data **(value)** and then it 
 - [How git manage data](./INTERNAL.md#how-git-manage-data)
 - [Object types](./INTERNAL.md#object-types)
 - [When the magic occur](./INTERNAL.md#when-the-magic-occur)
+- [Under hooks commands](./INTERNAL#under-hook-commands)
 - [Key Notes](./INTERNAL.md#key-notes)
+- [How Git keep track of files with same content by different names](./INTERNAL.md#how-git-keep-track-of-files-with-same-content-by-different-names)
 
 
 ## Git database
@@ -68,6 +70,18 @@ To do this, when we run the command `git commit` git make several actions:
 2. Create the commit object, which contains the references to the tree object, this way a commit can keep track of what changes were made.
 3. And finally, git update the HEAD pointer to the new commit created. This way we are in a version up to date.
 
+## Under hook commands
+
+Some useful commands are the following.
+
+- Get the SHA1 hash for specific file: `git hash-object [file-path]`.
+- Get type of SHA1 has: `git cat-file -t [HASH]`
+- Read SHA1 content: `git cat-file -p [HASH]`
+- Read index file: `git ls-files -s`
+- Get full HASH from abbrev code: `git rev-parse [abbrev-hash]`
+- Read tree from branch or pointer: `git cat-file -p [branch/pointer]^{tree}`
+- Read pack files: `git verify-pack -v [pack-file-path]`
+
 ## key notes:
 
 - Git does not track files by its names but its content, this means that if we have to files with same content this will be represented as a single blob file.
@@ -75,3 +89,9 @@ To do this, when we run the command `git commit` git make several actions:
 - Tree object key is calculated based on the content of blob files, this means that the same tree object will be created on any computer if the content of blob files are the same (same index).
 - Tree object can contain references to another trees
 - Commit objects always will be different because it is calculated by the author, the date and the message of commit.
+
+## How Git keep track of files with same content by different names.
+
+You might be thinking, if for git files with same content are the same blob file, how does it knows which file is which one.
+
+The answer is short. Tree object. Yes the tree object keeps tracks of the blob key and also the name of the file.
