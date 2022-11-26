@@ -34,6 +34,7 @@ This state means that the changes have been committed to local database.
 - [Commit Ranges](./COMMIT_RANGES.md)
 - [Config](./CONFIG.md)
 - [Customization](./CUSTOMIZATION.md)
+- [Git directory](./GIT_DIRECTORY.md)
 - [Internal](./INTERNAL.md)
 - [Merge](./MERGE.md)
 - [References](./REFERENCES.md)
