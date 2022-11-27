@@ -45,4 +45,9 @@ This state means that the changes have been committed to local database.
 - lib flow
 - refspecs
 - revert
+- tags
+- HEAD
+- ORIG_HEAD
+- finish commit section
+- add log section
 - what is version control
