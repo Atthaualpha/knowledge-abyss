@@ -54,6 +54,7 @@ Git has three main objects:
 - Blob: Represents each version of a file.
 - Three: Represents one level of directory information.
 - Commit: Represent each change introduced.
+- Tag: Represent a pointer to a specific commit.
 
 ### When the magic occur?
 
