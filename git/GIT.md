@@ -44,7 +44,6 @@ This state means that the changes have been committed to local database.
 - Rebase
 - git flow
 - lib flow
-- refspecs
 - revert
 - tags
 - HEAD
@@ -52,3 +51,7 @@ This state means that the changes have been committed to local database.
 - finish commit section
 - add log section
 - what is version control
+- fetch
+- push
+- pull
+- remote history can be updated, rewind, rebase...
