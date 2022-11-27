@@ -4,10 +4,6 @@
 
 Git is a distributed version control system, no more than that.
 
-Git needs only local files and resources to operate
-Git stores data data as snapshots over time.
-Git checksum every change calculating by files or directories content before is stored, this checksum is a SHA-1 hash 
-
 ## States of git
 git has three main states:
 - modified (working directories)
