@@ -57,3 +57,4 @@ This state means that the changes have been committed to local database.
 - remote history can be updated, rewind, rebase...
 - detach
 - prune
+- how pull request works
