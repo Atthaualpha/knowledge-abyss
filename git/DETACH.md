@@ -15,7 +15,7 @@ Keep in mind the following things:
 
 ## Move to detached state
 
-To enter the detached state you can just use the `git checkout [commit]`, `git checkout --detach [branch]`, `git checkout [tag]`
+To enter the detached state you can just use the `git checkout [commit]`, `git checkout --detach [branch]`, `git checkout [tag]`,  `git checkout [stash]`
 
 ## Quit the detached state
 
