@@ -34,6 +34,7 @@ This state means that the changes have been committed to local database.
 - [Git directory](./GIT_DIRECTORY.md)
 - [Internal](./INTERNAL.md)
 - [Merge](./MERGE.md)
+- [Prune](./PRUNE.md)
 - [References](./REFERENCES.md)
 - [Rerere](./RERERE.md)
 - [Refspec](./REFSPEC.md)
@@ -56,6 +57,5 @@ This state means that the changes have been committed to local database.
 - push
 - pull
 - remote history can be updated, rewind, rebase...
-- prune
 - how pull request works
 - remote
