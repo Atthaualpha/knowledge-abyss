@@ -58,3 +58,4 @@ This state means that the changes have been committed to local database.
 - remote history can be updated, rewind, rebase...
 - prune
 - how pull request works
+- remote
