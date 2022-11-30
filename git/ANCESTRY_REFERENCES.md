@@ -38,11 +38,16 @@ This two characters can be combined for example:
 
 > `git show HEAD~^2` or `git show HEAD~3^2`
 
-## View parents references
+## View parents references with rev-list
 
 You can also see the parent of an specific commit or branch using the following command:
 
 > `git rev-list <commit> --parents --abbrev-commit -n 6 --graph --all`
 
+## View parents references with show-branch
+
+You can also see the parent of an specific commit or branch but with the ^ and ~ characters.
+
+> `git show-branch --more=10 <commit/branch>`
 
 
