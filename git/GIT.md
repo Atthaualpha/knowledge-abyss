@@ -35,6 +35,7 @@ This state means that the changes have been committed to local database.
 - [Internal](./INTERNAL.md)
 - [Merge](./MERGE.md)
 - [Prune](./PRUNE.md)
+- [Remote](./REMOTE.md)
 - [References](./REFERENCES.md)
 - [Rerere](./RERERE.md)
 - [Refspec](./REFSPEC.md)
