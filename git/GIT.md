@@ -47,7 +47,6 @@ This state means that the changes have been committed to local database.
 - Rebase
 - git flow
 - lib flow
-- revert
 - tags
 - HEAD
 - ORIG_HEAD
