@@ -44,12 +44,12 @@ This state means that the changes have been committed to local database.
 - [Revert](./REVERT.md)
 - [Search](./SEARCH.md)
 - [Stash](./STASH.md)
+- [Tags](./TAGS.md)
 
 ## Pending topics
 - Rebase
 - git flow
 - lib flow
-- tags
 - HEAD
 - ORIG_HEAD
 - finish commit section
