@@ -45,6 +45,7 @@ This state means that the changes have been committed to local database.
 - [Search](./SEARCH.md)
 - [Stash](./STASH.md)
 - [Tags](./TAGS.md)
+- [Tracking](./TRACKING.md)
 
 ## Pending topics
 - Rebase
@@ -60,6 +61,5 @@ This state means that the changes have been committed to local database.
 - remote history can be updated, rewind, rebase...
 - how pull request works
 - how stash works
-- add track section
 - finish git directory section
 - cherry pick
