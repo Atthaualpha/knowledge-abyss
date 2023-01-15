@@ -59,7 +59,7 @@ This state means that the changes have been committed to local database.
 - pull
 - remote history can be updated, rewind, rebase...
 - how pull request works
-- remote
 - how stash works
 - add track section
 - finish git directory section
+- cherry pick
