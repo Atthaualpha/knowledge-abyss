@@ -41,6 +41,7 @@ This state means that the changes have been committed to local database.
 - [Rerere](./RERERE.md)
 - [Refspec](./REFSPEC.md)
 - [Restore](./RESTORE.md)
+- [Revert](./REVERT.md)
 - [Search](./SEARCH.md)
 - [Stash](./STASH.md)
 
