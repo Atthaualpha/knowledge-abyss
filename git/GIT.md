@@ -60,3 +60,5 @@ This state means that the changes have been committed to local database.
 - how pull request works
 - remote
 - how stash works
+- add track section
+- finish git directory section
