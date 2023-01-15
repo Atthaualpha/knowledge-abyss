@@ -1,5 +1,8 @@
 # Tags
 
+*[:arrow_left: Go back to Git](./GIT.md)*
+
+
 Tags are pointers to a specific commits that help us to bookmark our development to an specific time, this way is much easier to know what was introduced in a specific version. Basically tags allow us to create versions.
 
 ## Creating

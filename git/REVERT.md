@@ -1,5 +1,7 @@
 # Revert
 
+*[:arrow_left: Go back to Git](./GIT.md)*
+
 Revert is a command that allows you to undo changes made in previous commits but keep track of which commits that introduced the changes. This means that revert will take the changes and create a new commit with reversal changes applied.
 
 Use the following command

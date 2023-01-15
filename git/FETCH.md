@@ -1,5 +1,8 @@
 # Fetch
 
+*[:arrow_left: Go back to Git](./GIT.md)*
+
+
 Fetch is a command that allow us to update our local references with remote changes. This is because when working with a team you may need to keep track of what changes are introduced by the team.
 
 Fetch basically check which commits are missing in the local repository and download them from the remote server. This way every branch will now point to the latest commit with all new changes.

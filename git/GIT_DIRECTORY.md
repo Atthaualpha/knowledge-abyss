@@ -1,6 +1,6 @@
 # Git Directory
 
-*[:arrow_left: Go back to home](../README.md)*
+*[:arrow_left: Go back to Git](./GIT.md)*
 
 
 Have you ever wonder what is inside the **.git** directory and what is the meaning of each folder and file? Well here we're going to answer those questions.
