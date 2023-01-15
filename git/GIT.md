@@ -31,6 +31,7 @@ This state means that the changes have been committed to local database.
 - [Config](./CONFIG.md)
 - [Customization](./CUSTOMIZATION.md)
 - [Detached](./DETACH.md)
+- [Fetch](./FETCH.md)
 - [Git directory](./GIT_DIRECTORY.md)
 - [Internal](./INTERNAL.md)
 - [Merge](./MERGE.md)
@@ -53,7 +54,6 @@ This state means that the changes have been committed to local database.
 - finish commit section
 - add log section
 - what is version control
-- fetch
 - push
 - pull
 - remote history can be updated, rewind, rebase...

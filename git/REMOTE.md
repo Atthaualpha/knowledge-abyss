@@ -34,6 +34,6 @@ Sometimes when a remote branch is deleted and you want to get rid of the remote 
 
 > `git remote update --prune [name]`
 
-This operation can be done by `git fetch` please refer to [Fetch](./FETCH.md)
+This operation can be done by `git fetch` please refer to [Fetch](./FETCH.md#fetch-and-prune-references)
 
 *The name is optional.*
