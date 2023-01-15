@@ -2,7 +2,7 @@
 
 *[:arrow_left: Go back to Git](./GIT.md)*
 
-Prune command is used to remove objects that are unreachable from any branch or any kind of references that git thinks can be used.
+Prune command is used to remove objects that are unreachable from any branch or any kind of references that git thinks is not used anymore.
 
 In example: If we modify a file and stage it to the index, internally this will create a blob object, but if we decide to restore the changes, this blob will become unreachable, to get rid of this blob object git allows you to remove those kind of objects.
 
