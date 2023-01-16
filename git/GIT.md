@@ -61,6 +61,5 @@ This state means that the changes have been committed to local database.
 - pull
 - remote history can be updated, rewind, rebase...
 - how pull request works
-- how stash works
 - finish git directory section
 - cherry pick
