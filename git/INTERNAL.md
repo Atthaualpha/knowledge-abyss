@@ -82,6 +82,7 @@ Some useful commands are the following.
 - Get full HASH from abbrev code: `git rev-parse [abbrev-hash]`
 - Read tree from branch or pointer: `git cat-file -p [branch/pointer]^{tree}` or `git ls-tree [branch/pointer]`
 - Read pack files: `git verify-pack -v [pack-file-path]`
+- Show which commit a branch points to: `git show-ref --abbrev`
 
 ## key notes:
 
