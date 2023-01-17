@@ -1,4 +1,8 @@
 # RESET
+
+*[:arrow_left: Go back to Git](./GIT.md)*
+
+
 Reset command allow as to update changes from the three trees that git manage.
 
 This basically means that we can move changes from one state to another. Moving the pointer and the current branch to an specific state
