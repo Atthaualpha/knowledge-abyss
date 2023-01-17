@@ -54,7 +54,7 @@ This state means that the changes have been committed to local database.
 - git flow
 - lib flow
 - review chapter 14 of git in practice book
-- HEAD
+- HEAD, remote HEAD branch
 - ORIG_HEAD
 - finish commit section
 - add log section
@@ -65,3 +65,4 @@ This state means that the changes have been committed to local database.
 - finish git directory section
 - cherry pick
 - how to split a commit
+- review amend usages
