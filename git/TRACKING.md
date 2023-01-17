@@ -60,3 +60,17 @@ But if you want to push changes to your tracking branch you need to specify it
 ## Where tracking information is stored?
 
 To see how git manage the relation between a branch and its tracking branch, check your local config file, that is inside `.git` directory, there git store all branches with the branch that is tracking in the *merge* property.
+
+## Show Tracking branch 
+
+In order to see what tracking branch has a specific branch use the command
+
+> `git branch -vv`
+
+This will list all branches with their respective tracking branch
+
+You can also filter a specific branch using:
+
+> `git branch -vv -l <branch>`
+
+This information is also available with the `git status` command.
