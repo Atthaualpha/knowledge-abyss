@@ -1,5 +1,8 @@
 # Cherry pick
 
+*[:arrow_left: Go back to Git](./GIT.md)*
+
+
 Cherry-pick command is a way to select an specific commit and create a copy of it to later apply to another branch. This means that those changes will be added to the branch history as a new commit.
 
 *Keep in mind that the new commit will have a different HASH Id because the commit has different metadata like the parent, the creation date, the message, etc.*
@@ -34,4 +37,3 @@ Then the changes will be in the index stage, so you can even changes the commit 
 
 You can even pick specific patches from the staged changes and drop the ones that are not longer needed.
 
-*[:arrow_left: Go back to Git](./GIT.md)*

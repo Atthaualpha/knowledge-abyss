@@ -26,6 +26,7 @@ This state means that the changes have been committed to local database.
 - [Blame](./BLAME.md)
 - [Checkout](./CHECKOUT.md)
 - [Cherry-pick](./CHERRY_PICK.md)
+- [Cherry](./CHERRY.md)
 - [Clean](./CLEAN.md)
 - [Commit](./COMMIT.md)
 - [Commit Ranges](./COMMIT_RANGES.md)
