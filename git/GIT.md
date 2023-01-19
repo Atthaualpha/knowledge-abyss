@@ -22,6 +22,7 @@ This state means that the changes have been committed to local database.
 ## Commands:
 
 - [Alias](./ALIAS.md)
+- [Amend](./AMEND.md)
 - [Bisect](./BISECT.md)
 - [Blame](./BLAME.md)
 - [Checkout](./CHECKOUT.md)
