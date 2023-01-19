@@ -66,4 +66,3 @@ This state means that the changes have been committed to local database.
 - how pull request works
 - finish git directory section
 - how to split a commit
-- review amend usages
