@@ -48,6 +48,7 @@ This state means that the changes have been committed to local database.
 - [Reset](./RESET.md)
 - [Revert](./REVERT.md)
 - [Search](./SEARCH.md)
+- [Split commits](./SPLIT_COMMIT.md)
 - [Stash](./STASH.md)
 - [Tags](./TAGS.md)
 - [Tracking](./TRACKING.md)
@@ -66,4 +67,3 @@ This state means that the changes have been committed to local database.
 - remote history can be updated, rewind, rebase...
 - how pull request works
 - finish git directory section
-- how to split a commit
