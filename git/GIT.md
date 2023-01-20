@@ -67,3 +67,4 @@ This state means that the changes have been committed to local database.
 - remote history can be updated, rewind, rebase...
 - how pull request works
 - finish git directory section
+- detail merge commands
