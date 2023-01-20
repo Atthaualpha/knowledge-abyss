@@ -40,6 +40,7 @@ This state means that the changes have been committed to local database.
 - [Merge](./MERGE.md)
 - [Prune](./PRUNE.md)
 - [Pull](./PULL.md)
+- [Push](./PUSH.md)
 - [Remote](./REMOTE.md)
 - [References](./REFERENCES.md)
 - [Rerere](./RERERE.md)
@@ -63,7 +64,6 @@ This state means that the changes have been committed to local database.
 - finish commit section
 - add log section
 - what is version control
-- push
 - remote history can be updated, rewind, rebase...
 - how pull request works
 - finish git directory section
