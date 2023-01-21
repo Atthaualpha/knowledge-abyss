@@ -35,6 +35,7 @@ This state means that the changes have been committed to local database.
 - [Customization](./CUSTOMIZATION.md)
 - [Detached](./DETACH.md)
 - [Fetch](./FETCH.md)
+- [HEAD](./HEAD.md)
 - [Git directory](./GIT_DIRECTORY.md)
 - [Internal](./INTERNAL.md)
 - [Merge](./MERGE.md)
@@ -59,7 +60,7 @@ This state means that the changes have been committed to local database.
 - git flow
 - lib flow
 - review chapter 14 of git in practice book
-- HEAD, remote HEAD branch
+- HEAD
 - ORIG_HEAD
 - finish commit section
 - add log section
