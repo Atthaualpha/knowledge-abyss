@@ -59,7 +59,7 @@ This state means that the changes have been committed to local database.
 - git flow
 - lib flow
 - review chapter 14 of git in practice book
-- HEAD, remote HEAD branch
+- HEAD
 - ORIG_HEAD
 - finish commit section
 - add log section
