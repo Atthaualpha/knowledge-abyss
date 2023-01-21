@@ -32,7 +32,7 @@ When your local branch has a tracking references, it is mucho more simple to pus
 
 We omit the remote name and the branch name, because now git uses the [tracking](./TRACKING.md) branch as reference.
 
-## Force pushing changes
+## Force pushing changes or rewrite remote history
 
 Force changes implies that you rewritten the local branch history and you want to rewrite the remote branch history too.
 This means to get rid of commits and replace them with new commits.
