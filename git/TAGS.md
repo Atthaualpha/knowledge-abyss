@@ -47,6 +47,20 @@ You can also provide the `--merge` option to list the tags that can be reached f
 
 To list tags that are in the remote repository you can use the `git ls-remote --tags` command.
 
+### List only annotated tags
+
+To list just annotated tags use 
+
+> `git describe`
+
+This command can also search a specific tag adding it after the command. 
+
+## List only lightweight tags
+
+To list only lightweight tags use
+
+> `git describe --tags`
+
 ## Pushing tags to the remote
 
 To push tags you need to use the `push` command. There are some ways to do this.
