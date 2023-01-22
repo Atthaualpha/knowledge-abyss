@@ -64,6 +64,5 @@ This state means that the changes have been committed to local database.
 - finish commit section
 - add log section
 - what is version control
-- how pull request works
 - finish git directory section
 - detail merge commands
