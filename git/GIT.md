@@ -66,3 +66,4 @@ This state means that the changes have been committed to local database.
 - what is version control
 - finish git directory section
 - detail merge commands
+- read books for more interesting info
