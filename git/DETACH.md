@@ -2,7 +2,7 @@
 
 [:arrow_left: Go back to Git](./GIT.md)
 
-Normally when we checkout to the tip of a specific branch, but sometimes we want to checkout a specific commit or a reference that is not the tip of a branch.
+Normally we checkout to the tip of a specific branch, but sometimes we want to checkout a specific commit or a reference that is not the tip of a branch.
 
 In this case git call this state as detached state or an anonymous branch, and this means that the HEAD pointer will have the reference to that specific commit.
 

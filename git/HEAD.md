@@ -3,7 +3,13 @@
 *[:arrow_left: Go back to Git](./GIT.md)*
 
 
-HEAD is a pointer to the current branch you are working on
+HEAD is a pointer that point generally to a specific branch. This means that HEAD allow you to know which branch you are working on.
+
+When HEAD points to a branch means that HEAD points to the tip or the latest or recent commit on a branch.
+
+In some cases HEAD can point to a specific commit or tag and in git this is known as detached HEAD or a [detached state](./DETACH.md).
+
+The real value of HEAD can be seen in the `.git/HEAD` location.
 
 ## Remote HEAD
 
