@@ -61,7 +61,6 @@ This state means that the changes have been committed to local database.
 - git flow
 - lib flow
 - review chapter 14 of git in practice book
-- finish commit section
 - add log section
 - what is version control
 - finish git directory section
