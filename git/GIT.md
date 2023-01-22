@@ -39,6 +39,7 @@ This state means that the changes have been committed to local database.
 - [Git directory](./GIT_DIRECTORY.md)
 - [Internal](./INTERNAL.md)
 - [Merge](./MERGE.md)
+- [ORIG_HEAD](./ORIG_HEAD.md)
 - [Prune](./PRUNE.md)
 - [Pull](./PULL.md)
 - [Push](./PUSH.md)
@@ -60,7 +61,6 @@ This state means that the changes have been committed to local database.
 - git flow
 - lib flow
 - review chapter 14 of git in practice book
-- ORIG_HEAD
 - finish commit section
 - add log section
 - what is version control
