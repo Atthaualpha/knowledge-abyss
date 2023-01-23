@@ -50,3 +50,4 @@ Let's take a look one by one.
 
 ## Hooks
 
+See [git layout documentation](./https://git-scm.com/docs/gitrepository-layout)
