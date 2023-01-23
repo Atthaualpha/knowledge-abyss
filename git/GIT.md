@@ -58,9 +58,7 @@ This state means that the changes have been committed to local database.
 - [Tracking](./TRACKING.md)
 
 ## Pending topics
-- git flow
-- lib flow
-- review chapter 14 of git in practice book
+- workflows, lib flow, git flow, review chapter 14 of git in practice book
 - add log section
 - what is version control
 - finish git directory section
