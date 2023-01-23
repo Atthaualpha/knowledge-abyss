@@ -1,6 +1,6 @@
 # Grep
 
-*[:arrow_left: Go back to Search](./SEARCH.md)*
+*[:arrow_left: Go back to Git](./GIT.md)*
 
 
 Grep is a useful tool to search specific words that match in your files.
