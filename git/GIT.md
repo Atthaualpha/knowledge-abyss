@@ -43,6 +43,7 @@ This state means that the changes have been committed to local database.
 - [Prune](./PRUNE.md)
 - [Pull](./PULL.md)
 - [Push](./PUSH.md)
+- [Rebase](./REBASE.md)
 - [Remote](./REMOTE.md)
 - [References](./REFERENCES.md)
 - [Rerere](./RERERE.md)
@@ -57,7 +58,6 @@ This state means that the changes have been committed to local database.
 - [Tracking](./TRACKING.md)
 
 ## Pending topics
-- Rebase
 - git flow
 - lib flow
 - review chapter 14 of git in practice book
