@@ -64,7 +64,8 @@ This state means that the changes have been committed to local database.
 
 ## Pending topics
 - workflows, lib flow, git flow, review chapter 14 of git in practice book
-- what is version control
 - finish git directory section
 - detail merge commands
-- read books for more interesting info
+- read books for more interesting infoq
+- patching
+- worktree
