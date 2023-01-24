@@ -4,6 +4,10 @@
 
 Git is a distributed version control system, no more than that.
 
+## Version control
+
+Is a system or set of tools that manage and records changes to a file or set of files allowing to track them over time.
+
 ## States of git
 git has three main states:
 - modified (working directories)
