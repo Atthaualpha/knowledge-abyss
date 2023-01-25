@@ -61,6 +61,7 @@ This state means that the changes have been committed to local database.
 - [Stash](./STASH.md)
 - [Tags](./TAGS.md)
 - [Tracking](./TRACKING.md)
+- [Multiple working trees](./WORKTREE.md)
 
 ## Pending topics
 - workflows, lib flow, git flow, review chapter 14 of git in practice book
@@ -68,4 +69,3 @@ This state means that the changes have been committed to local database.
 - detail merge commands
 - read books for more interesting infoq
 - patching
-- worktree
