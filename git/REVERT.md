@@ -17,3 +17,13 @@ When you face with a commit that comes from a merge things are different when th
 The *m* flag means the main line what you want to keep, usually is the first main line with index 1 **(parent lines starting from 1)**
 
 If you want to know how to check the parents of a commit please refer to [ancestry references](./ANCESTRY_REFERENCES.md#view-parents-references-with-rev-list)
+
+## Revert specific file
+
+Sometimes you may want to revert a single file but its previous state, you can do this with `checkout` command.
+
+> `git checkout <commit> -- <file-path>`
+
+This command is different from a normal revert, because this will not create a commit with the reverse changes but will revert the changes in your working tree and index.
+
+
