@@ -30,14 +30,14 @@ Following are some alias that you can use, this configurations can be place in g
 	aci = !git add -A && git commit
 	co = checkout
 	cob = checkout -b
-	cob-feat =!sh -c 'git checkout -b feature/$0'
-	cob-fix =!sh -c 'git checkout -b fix/$0'
-	cob-hot =!sh -c 'git checkout -b hotfix/$0'
+	cob-f =!sh -c 'git checkout -b feature/$0'
+	cob-b =!sh -c 'git checkout -b bugfix/$0'
+	cob-h =!sh -c 'git checkout -b hotfix/$0'
 	co-ours = checkout --ours
 	co-theirs = checkout --theirs
 	co-base = checkout --merge
 	br = branch
-	br-erase = !sh -c 'git branch -d $0 && git push -d origin $0'
+	br-erase = !sh -c 'git branch -D $0 && git push -d origin $0'
 	track = !git br -vv --list "$(git rev-parse --abbrev-ref HEAD)"
 	p = push 
 	pu = !git push -u origin "$(git rev-parse --abbrev-ref HEAD)"
@@ -76,7 +76,7 @@ Following are some alias that you can use, this configurations can be place in g
 	mg-a = merge --abort
 	mg-s = merge --squash
 	repo = "!start `git remote get-url origin | sed -Ee 's#(git@|git://)#http://#' -e 's@com:@com/@'`"
-	repo-pr = "!start $(echo `git remote get-url origin | sed -Ee 's#(git@|git://)#http://#' -e 's@com:@com/@'`/compare/master..`git rev-parse --abbrev-ref HEAD` | sed 's/s.git/s/') "
+	pr = "!start $(echo `git remote get-url origin | sed -Ee 's#(git@|git://)#http://#' -e 's@com:@com/@'`/compare/master...`git rev-parse --abbrev-ref HEAD`'?expand=1' | sed 's/s.git/s/') "
 	open-config = !start $HOME/.gitconfig
 	bl = blame --date=short
 	bis = bisect
