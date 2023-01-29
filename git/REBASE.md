@@ -43,7 +43,7 @@ When saving changes git will perform the actions you specified step by step.
 
 In some cases you may want to rebase specific commits to a different branch to do this you can use the `--onto` option
 
-> `git rebase --onto <new-base> <starting-point> <branch>
+> `git rebase --onto <new-base> <starting-point> <branch>`
 
 - New base means the branch where the rebase will be aplied
 - Starting point means the initial range of commits to be rebased.
