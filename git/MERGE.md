@@ -12,7 +12,9 @@ To merge on branch into another use the following command
 
 ### fast-forward  
 
-This is type of merge can be done when the history from the current branch can be tracking in a single line, so in this case the ancestor branch just have to be moved to the current commit of current branch.
+This type of merge can be done when the commit base from your current branch has been based has not diverged, so in this case the ancestor branch just have to be moved to the current commit of current branch. 
+
+It is important to know that fas-forward does not perform a merge just move the branch references to the latest commit.
 
 **Before merge**
 ![pre-fast-forward](./img/pre-fast-forward.png)
@@ -24,6 +26,12 @@ This is type of merge can be done when the history from the current branch can b
 ## Commit merge or 3 way merge
 
 This type of merge is generally used when there is no way to track the line of commits between the current branch and the one to merge into. That means that you will have the source, the target and the base from the last two.
+
+This is called 3-way merge because the merge commit is based on 3 different commits
+
+- Ours
+- Theirs
+- Common base 
 
 **Before merge**
 ![pre-3-way-merge](./img/pre-3-way-merge.png)
