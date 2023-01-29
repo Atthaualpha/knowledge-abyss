@@ -3,7 +3,7 @@
 *[:arrow_left: Go back to Git](./GIT.md)*
 
 
-Clean command is useful when you want to get rid of all changes made.
+Clean command is useful when you want to get rid of untracked files.
 
 > `git clean -f`
 
