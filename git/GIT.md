@@ -59,6 +59,7 @@ This state means that the changes have been committed to local database.
 - [Revert](./REVERT.md)
 - [Split commits](./SPLIT_COMMIT.md)
 - [Stash](./STASH.md)
+- [Show](./SHOW.md)
 - [Tags](./TAGS.md)
 - [Tracking](./TRACKING.md)
 - [Multiple working trees](./WORKTREE.md)
