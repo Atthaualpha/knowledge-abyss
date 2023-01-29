@@ -4,9 +4,15 @@ Alias allow as to reduces are git commands and customize them as we want.
 
 [:arrow_left: Go back to Git](./GIT.md)
 
+## Adding alias
+
+You can add alias to your git config using
+
+> `git config --global alias.<name> <value>`
+
 Following are some alias that you can use, this configurations can be place in global git config file or wherever you want.
 ```
-	a = add -A -v
+    a = add -A -v
 	s = status -sb
 	st = status
 	ci = commit
@@ -31,6 +37,8 @@ Following are some alias that you can use, this configurations can be place in g
 	co-theirs = checkout --theirs
 	co-base = checkout --merge
 	br = branch
+	br-erase = !sh -c 'git branch -d $0 && git push -d origin $0'
+	track = !git br -vv --list "$(git rev-parse --abbrev-ref HEAD)"
 	p = push 
 	pu = !git push -u origin "$(git rev-parse --abbrev-ref HEAD)"
 	pl = pull
@@ -50,11 +58,11 @@ Following are some alias that you can use, this configurations can be place in g
 	rb-last = rebase HEAD~
 	rb-c = rebase --continue
 	rb-a = rebase --abort
-	lg = log
-	lgl = log --oneline
-	lgs = log --oneline --stat
-	lgg = log --graph --oneline
-	lggs = lgg --graph --oneline --stat
+	lg = log --pretty='%C(magenta) %h %C(auto)%d %C(yellow)%s %C(cyan)%ah'
+	lgr = lg --reverse
+	lgs = lg --stat
+	lgg = lg --graph
+	lggs = lg --graph --stat
 	sth = stash
 	sth-a = stash apply
 	sth-d = stash drop
@@ -62,13 +70,25 @@ Following are some alias that you can use, this configurations can be place in g
 	sth-p = stash pop
 	sth-pn = !sh -c 'git stash pop stash@{$0}'
 	sth-an = !sh -c 'git stash apply stash@{$0}'
-	sth-l = stash list
+	sth-l = stash list --oneline
 	sth-ai = stash apply --index
 	mg = merge
 	mg-a = merge --abort
-	repo = "!start `git remote get-url origin | sed -Ee 's#(git@|git://)#http://#' -e 's@com:@com/@'`| head -n1"
-	gcfg = !start $HOME/.gitconfig
-	back = checkout -q -
+	mg-s = merge --squash
+	repo = "!start `git remote get-url origin | sed -Ee 's#(git@|git://)#http://#' -e 's@com:@com/@'`"
+	repo-pr = "!start $(echo `git remote get-url origin | sed -Ee 's#(git@|git://)#http://#' -e 's@com:@com/@'`/compare/master..`git rev-parse --abbrev-ref HEAD` | sed 's/s.git/s/') "
+	open-config = !start $HOME/.gitconfig
+	bl = blame --date=short
+	bis = bisect
+	bis-s = bisect start
+	bis-g = bisect good
+	bis-b = bisect bad
+	bis-rs = bisect reset
+	bis-l = bisect log
+	loose = fsck --unreachable
+	config-get = config --get-regexp
+	ftr = fetch
+	ft = !git fetch origin "$(git rev-parse --abbrev-ref HEAD)"
 ``` 
 
 ### Useful Resources
