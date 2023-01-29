@@ -65,6 +65,4 @@ This state means that the changes have been committed to local database.
 - [Multiple working trees](./WORKTREE.md)
 
 ## Pending topics
-- workflows, lib flow, git flow, review chapter 14 of git in practice book
-- detail merge commands
 - read books for more interesting info
