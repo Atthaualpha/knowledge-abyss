@@ -3,9 +3,10 @@
 *[:arrow_left: Go back to Git](./GIT.md)*
 
 
-Have you ever wonder what is inside the **.git** directory and what is the meaning of each folder and file? Well here we're going to answer those questions.
+Git as a database to keep track of changes also have some structure to achieve its purpose.
 
-The .git directory has the following structure
+
+The .git directory has the following structure and [here](https://git-scm.com/docs/gitrepository-layout) you can find the meaning of each element of its structure
 
 ```
 |- hooks/
@@ -45,9 +46,3 @@ The .git directory has the following structure
 |- TAG_EDITMSG
 
 ```
-
-Let's take a look one by one.
-
-## Hooks
-
-See [git layout documentation](./https://git-scm.com/docs/gitrepository-layout)
