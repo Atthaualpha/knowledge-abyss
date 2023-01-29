@@ -87,7 +87,7 @@ Some useful commands are the following.
 ## key notes:
 
 - Git does not track files by its names but its content, this means that if we have to files with same content this will be represented as a single blob file.
-- Tree object is calculated based on index content.
+- Blob key is calculated based on index content.
 - Tree object key is calculated based on the content of blob files, this means that the same tree object will be created on any computer if the content of blob files are the same (same index).
 - Tree object can contain references to another trees
 - Commit objects always will be different because it is calculated by the author, the date and the message of commit.
