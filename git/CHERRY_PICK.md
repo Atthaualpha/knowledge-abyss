@@ -21,9 +21,11 @@ Git also allow us to pick several commits in a single command
 
 Or with a range notation like:
 
-> `git cherry-pick <commit>..<commit>`
+> `git cherry-pick <commit>^..<commit>`
 
-Keep in mind that each commit will be apply in the order specified and will create a new commit, this means that N commits will be added to the branch history
+Keep in mind that each commit will be apply in the order specified and will create a new commit, this means that N commits will be added to the branch history.
+
+When using range commits keep in mind that the first commit will not be included, that is why use the `^` symbol to refer to the parent commit.
 
 ## Apply multiple commits into a single commit
 
