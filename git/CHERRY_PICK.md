@@ -39,3 +39,17 @@ Then the changes will be in the index stage, so you can even changes the commit 
 
 You can even pick specific patches from the staged changes and drop the ones that are not longer needed.
 
+## Apply chucks from commits
+
+Sometimes you may want to pick chunks from a specific commit and apply them to your current branch, to do this you can use checkout to do this.
+
+> `git checkout -p <commit>`
+
+This command will checkout the given commit but with the `-p` option, git will prompt a editor to choose the chucks you want.
+
+#### Chucks of specific files
+
+Using the previous command you can also specify which file you want to use to pick the chucks.
+
+> `git checkout -p <commit> -- <file-path>`
+
