@@ -4,6 +4,8 @@
 
 Merge command is useful when you need to put all changes together and update your project line history, this way you integrate your changes into one single branch.
 
+[More details about merge here](https://www.biteinteractive.com/understanding-git-merge/)
+
 To merge on branch into another use the following command
 
 > `git merge [branch]`
