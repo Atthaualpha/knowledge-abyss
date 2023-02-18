@@ -1,0 +1,2 @@
+singleton implementation (enum?) and issues
+static factory names
