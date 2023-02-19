@@ -26,3 +26,4 @@
 ## Content
 
 - [Meaningful names](./MEANINFUL_NAMES.md)
+- [Functions](./FUNCTIONS.md)
