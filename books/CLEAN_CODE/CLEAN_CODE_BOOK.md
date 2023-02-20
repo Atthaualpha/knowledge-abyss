@@ -10,6 +10,7 @@
 - Code-sense is the key to clean code
 - Code-sense allow programmers to see options and variations into a messy code
 - programmers are artists
+- we should never ignore any part of code. The parts we ignore are where the bugs will hide.
 
 # What is clean code
 - logic straightforward, that make hard to bugs hide
