@@ -67,7 +67,7 @@ To push tags you need to use the `push` command. There are some ways to do this.
 
 ### Pushing specific tags
 
-You can push just the tags that you want specifying it with `git push <tag_name>` such a normal branch.
+You can push just the tags that you want specifying it with `git push <remote> <tag_name>` such a normal branch.
 
 ### Pushing all tags
 
