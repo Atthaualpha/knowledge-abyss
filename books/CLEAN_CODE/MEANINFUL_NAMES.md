@@ -25,6 +25,15 @@ for (i=1;i<clients.size();i++){
 - use technical names, such as patterns, math terms, algorithms, etc
 - Shorter names are generally better than longer ones, so long as they are clear
 - names must be precise
+
+## Variable names
+- Should describe the content
+- Should be consistent with conventions
+- Should not be generic like data, dto, etc
+
+## Class fields
+- Should describe the purpose of the object
+
 ### Names with measures
  When using names to something that is used to measure, specify the unit of that measurement.
 
