@@ -13,13 +13,7 @@ Inversion of control is a **design principle** that claims that classes should n
 
 ## Types of IoC
 
-- Service locator
+- [Service locator](./SERVICE_LOCATOR.md)
 - [Dependency injection](./DEPENDENCY_INJECTION.md)
 
 
-## Service locator
-
-Types of service locator (lookup)
-
-- Dependency pull
-- Contextualized Service Locator
