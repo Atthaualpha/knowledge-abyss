@@ -7,9 +7,9 @@ Inversion of control is a **design principle** that claims that classes should n
 
 **In simple terms, class should not deal with dependency resolution, but rather delegate that task to something else, in order to loose coupling against implementations.**
 
-> The real issue that IoC tries to deal with: **Separating configuration from use**
+> The real issue that IoC tries to deal with is: **Separating configuration from use**
 
-*Hollywood Principle: Don't call me, I'll call you*
+Also knows as: *Hollywood Principle: Don't call me, I'll call you*
 
 ## Types of IoC
 

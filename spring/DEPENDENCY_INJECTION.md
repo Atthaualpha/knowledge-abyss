@@ -2,7 +2,7 @@
 
 *[:arrow_left: Go back to IoC](./IoC.md)*
 
-Dependency injection can be thought as a implementation of IoC.
+Dependency injection can be thought as an implementation of IoC.
 DI is a design pattern, this means that is the "how" IoC can be applied.
 
 
@@ -10,7 +10,7 @@ DI is a design pattern, this means that is the "how" IoC can be applied.
 
 DI solves a specific problem, *how to provide the dependencies(implementations) needed by a specific class?*. This means dependency creation and resolution. 
 
-DI proposes that a class should define its dependencies in order to be provided by someone else. This way the class does not need to now how to get the dependencies. (This is also called as define the configuration to function)
+DI proposes that a class should define its dependencies in order to be provided by someone else. This way the class does not need to know how to get the dependencies. (This is also called as define the configuration to function)
 
 ### Example without DI
 
@@ -69,4 +69,4 @@ There are some types of DI implementations
 - Constructor injection
 - Setter inject
 
-*Additional injection would be **field injection**, which uses reflection to set dependency value, but using reflection has some performance implications and it is easy to may broke Single Responsibility Principle (SRP)*
+*Additional injection would be **field injection**, which uses reflection to set dependency value, but using reflection has some performance implications and it is easy to broke Single Responsibility Principle (SRP)*
