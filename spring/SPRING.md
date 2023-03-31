@@ -2,7 +2,7 @@
 
 This is a section with lots of spring concepts
 
-It should make the right thing easy to do
+> It should make the right thing easy to do
 
 ## What is Spring
 

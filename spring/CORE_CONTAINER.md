@@ -41,13 +41,12 @@ This type of container is basically a BeanFactory. This means that anything a be
 
 They differ in the way that ApplicationContext, increase functionality and usage style.
 
-more featured container that allows, internationalization, event publishing, web applications, etc.
-
-
-
-> ¿does spring has a static variable where the container is stored?
-
-**spring boot has application context that allows global access to spring container, without spring boot this global access have to be done manually by declaring a static variable and store there the container**
+Some feature that provides this container are:
+- Internationalization support
+- Event handling and notification with in the container
+- Web application support
+- Automatic bean post processing
+- Environment-aware configuration that allows to access to properties defined to a specific environment.
 
 ## How wiring works
 
