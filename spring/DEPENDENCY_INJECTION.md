@@ -51,7 +51,7 @@ public class MessageService {
 
 ```
 
-In this example, the **MessageService** does not have the responsibility to create the instance to work with the **MessageSender**, this means that does not need to know create this dependency.
+In this example, the **MessageService** does not have the responsibility to create the instance to work with the **MessageSender**, this means that does not need to know how to create this dependency.
 
 This has some advantages:
 

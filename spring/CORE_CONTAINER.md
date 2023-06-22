@@ -52,6 +52,6 @@ Some feature that provides this container are:
 
 ## How wiring works
 
-To wire beans spring use a **topological ordering** is a way of ordering (graph) a set of items based on their dependencies. The order ensures that if item A depends on item B, then B will always come before A in the ordering.
+To wire beans spring use a **topological ordering**, this is a way of ordering (graph) a set of items based on their dependencies. The order ensures that if item A depends on item B, then B will always come before A in the ordering.
 
 ### Wiring vs AutoWiring

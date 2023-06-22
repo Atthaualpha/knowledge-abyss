@@ -16,4 +16,4 @@ In service locator there are two concepts:
 ## Types of Service Locators
 
 - Dependency pull: The dependencies are obtained by a lookup through a registry
-- Contextualized Service Locator: The dependencies are retrieved by a lookup directly though the container.
+- Contextualized Service Locator: The dependencies are retrieved by a lookup directly through the container.
