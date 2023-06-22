@@ -1,5 +1,8 @@
 # Container configuration
 
+*[:arrow_left: Go back to Core Container](./CORE_CONTAINER.md)*
+
+
 First container load the configuration
 
 Then asking the container for a bean trigger the creation and initialization of the bean, including the dependencies. 

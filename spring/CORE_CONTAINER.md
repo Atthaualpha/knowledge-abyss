@@ -54,4 +54,7 @@ Some feature that provides this container are:
 
 To wire beans spring use a **topological ordering**, this is a way of ordering (graph) a set of items based on their dependencies. The order ensures that if item A depends on item B, then B will always come before A in the ordering.
 
+## Container Configuration
+In order to use the container a configuration is need, a basic configuration is described in [Configuration section](./CONTAINER_CONFIGURATION.md)
+
 ### Wiring vs AutoWiring
