@@ -69,4 +69,6 @@ There are some types of DI implementations
 - Constructor injection
 - Setter inject
 
-*Additional injection would be **field injection**, which uses reflection to set dependency value, but using reflection has some performance implications and it is easy to broke Single Responsibility Principle (SRP)*
+Each type of DI has some advantages and disadvantages explained in [this section](./TYPES_OF_INJECTIONS.md).
+
+*An Additional injection would be **field injection**, which uses reflection to set dependency value, but using reflection has some performance implications and it is easy to broke Single Responsibility Principle (SRP)*
