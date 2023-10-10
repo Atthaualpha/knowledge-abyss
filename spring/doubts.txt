@@ -1,0 +1,10 @@
+- passive code vs active code?
+- qualifiers are a type of lookup?
+- autowire vs wiring, how it works internally?
+- configuration parameters as dependencies
+- lazy initialization how it works?
+- lifecycle callbacks, by annotations, xml configuration or interface implementations
+- pre-instantiation
+- object provider in spring
+- which is the default base-package that spring uses to scan
+- Spring supports a hierarchical structure for ApplicationContext so that one context is considered the parent of another.
