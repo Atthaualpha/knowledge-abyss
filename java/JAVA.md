@@ -5,3 +5,4 @@
 Here you will find a lot of resources with examples and explanations about lot of topics of Java
 
 - [Collections](./collections/COLLECTIONS.md)
+- [Memory management](./memory/MEMORY_MANAGEMENT.md)

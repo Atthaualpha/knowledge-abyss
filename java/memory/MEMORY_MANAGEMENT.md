@@ -1,5 +1,7 @@
 # Memory management
 
+*[:arrow_left: Go back to Java](../JAVA.md)*
+
 Is the process to allocate new objects and de-allocate unused objects from memory during runtime. Java uses an automatic memory management system called a **Garbage Collector**.
 
 ## Memory structure
@@ -20,7 +22,7 @@ Characteristics:
 - Bytecode from method code is stored here, this bytecode is executed by the JVM when a method is invoked.
 - Garbage collection is not managed by the GC explicitly but instead dynamically reclaims memory as needed.
 
-## Heap
+## [Heap](./HEAP.md)
 
 Is one of the main areas of memory for a Java Application. This area allows to allocate all new objects during runtime. 
 
