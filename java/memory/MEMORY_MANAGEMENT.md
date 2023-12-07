@@ -16,6 +16,8 @@ This area allocate classes and methods information, the bytecode of loaded class
 
 This area is known as MetaSpace but in older versions was referred to as the "Permanent Generation" (PermGen). Due to the problems with fixed size of PermGen was replaced with MetaSpace which can dynamically expand to accommodate class metadata.
 
+*The PermGen was considered to be part of heap area, but with the introduction of MetaSpace this relationship has changed and know is no longer considered part of heap area.*
+
 Characteristics:
 
 - Loaded classes are stored here by the classloader.
