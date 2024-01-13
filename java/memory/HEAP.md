@@ -26,3 +26,10 @@ This area is also divided into two spaces:
 ## Old Generation
 
 This generation allocate long-lived objects, and is larger that the young generation and its occupancy grows more slowly typically after a Garbage collection process.
+
+
+CMS and G1 are low-pause implementations, that means that perform GC process without pause ALL application threads.A trade off is more CPU usage.
+
+
+How to measure eden size?
+Initial Young Gen Size = Initial Heap Size / (1 + NewRatio)
