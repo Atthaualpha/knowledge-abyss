@@ -61,3 +61,8 @@ This area keeps track of the current execution point within a specific thread. I
 also known as C-Stack this area is used to execute native code that is not written in Java, like libraries or low-level code. This area stores local variables and method calls like Stack area.
 
 Every thread also has its own native method stack that insures the isolation of thread execution.
+
+
+## [Garbage Collection](./GARBAGE_COLLECTION.md)
+
+Garbage collection is a process to remove unused objects from memory to free spaces to allow new objects creation.
